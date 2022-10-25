@@ -25,7 +25,7 @@ class ExamplePlugin(base_plugin.TBPlugin):
         context: A base_plugin.TBContext instance.
         """
         self.data_provider = context.data_provider
-        self._multiplexer = context.multiplixer
+        self._multiplexer = context.multiplexer
 
     def is_active(self):
         """Returns whether there is relevant data for the plugin to process.
