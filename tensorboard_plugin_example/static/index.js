@@ -83,12 +83,12 @@ export async function render() {
   const iframe1 = document.createElement("iframe");
   iframe1.src = "./NYC_mobility.html";
   iframe1.style.width = "48%";
-  iframe1.style.height = "500px";
+  iframe1.style.height = "700px";
 
   const iframe2 = document.createElement("iframe");
   iframe2.src = "./VAE_mnist.html";
   iframe2.style.width = "48%";
-  iframe2.style.height = "500px";
+  iframe2.style.height = "700px";
 
   document.body.appendChild(iframe1);
   document.body.appendChild(iframe2);
