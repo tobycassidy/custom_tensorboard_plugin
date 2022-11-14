@@ -55,4 +55,4 @@ writing manifest file 'tensorboard_plugin_example.egg-info/SOURCES.txt'
 
 [PROJECTOR](https://github.com/tobycassidy/custom_tensorboard_plugin/blob/main/existing_plugins/projector/demo.py)
 
-<img src='tensorboard_screenshots/projector_plugin.mov' />
+<img src='tensorboard_screenshots/projector_plugin.png' />
