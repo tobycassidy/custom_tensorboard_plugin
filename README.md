@@ -61,6 +61,12 @@ writing manifest file 'tensorboard_plugin_example.egg-info/SOURCES.txt'
 
 [TIME SERIES, SCALARS, GRAPHS, DISTRIBUTIONS, HISTOGRAMS, PROFILE](https://github.com/tobycassidy/custom_tensorboard_plugin/blob/main/existing_plugins/profile/demo.py)
 
+```linux
+
+(TB_plugin38) tobycassidy@Tobys-MacBook-Pro custom_tensorboard_plugin % python -m pip install tensorboard-plugin-profile
+
+```
+
 <img src='tensorboard_screenshots/profile_plugin_tf_stats.png' />
 
 <img src='tensorboard_screenshots/profile_plugin_bottleneck.png' />
