@@ -47,7 +47,7 @@ writing manifest file 'tensorboard_plugin_example.egg-info/SOURCES.txt'
 
 ```
 
-#### Example of existing plugins (without utilising callbacks)
+#### Example of existing plugins (without callbacks)
 
 [GRAPHS](https://github.com/tobycassidy/custom_tensorboard_plugin/blob/main/existing_plugins/graphs/demo.py)
 
@@ -56,3 +56,15 @@ writing manifest file 'tensorboard_plugin_example.egg-info/SOURCES.txt'
 [PROJECTOR](https://github.com/tobycassidy/custom_tensorboard_plugin/blob/main/existing_plugins/projector/demo.py)
 
 <img src='tensorboard_screenshots/projector_plugin.png' />
+
+#### Example of existing plugins (with callbacks)
+
+[TIME SERIES, SCALARS, GRAPHS, DISTRIBUTIONS, HISTOGRAMS, PROFILE](https://github.com/tobycassidy/custom_tensorboard_plugin/blob/main/existing_plugins/profile/demo.py)
+
+<img src='tensorboard_screenshots/profile_plugin_tf_stats.png' />
+
+<img src='tensorboard_screenshots/profile_plugin_bottleneck.png' />
+
+<img src='tensorboard_screenshots/profile_plugin_trace_viewer.png' />
+
+<img src='tensorboard_screenshots/time_series_plugin.png' />
