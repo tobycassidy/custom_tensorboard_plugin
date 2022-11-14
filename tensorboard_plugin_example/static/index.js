@@ -24,6 +24,7 @@ export async function render() {
       iframe {
         box-shadow: 0 2px 8px 0 rgb(0, 0, 0, 0.2);
         padding: 6px;
+        margin-left: 20px;
       }
       iframe:hover {
         box-shadow: 0 8px 32px 0 rgb(0, 0, 0, 0.2);
@@ -40,10 +41,14 @@ export async function render() {
         box-shadow: 0 2px 8px 0 rgb(0, 0, 0, 0.2);
         padding: 6px;
         margin-bottom: 5px;
+        margin-left: 20px;
       }
       table:hover {
         box-shadow: 0 8px 32px 0 rgb(0, 0, 0, 0.2);
         scale: 1.005;
+      }
+      p {
+        margin-left: 20px;
       }
       th {
         padding: 2pt 8pt;
@@ -82,13 +87,13 @@ export async function render() {
   // Bootstrap: Adding HTML as an iframe
   const iframe1 = document.createElement("iframe");
   iframe1.src = "./NYC_mobility.html";
-  iframe1.style.width = "48%";
-  iframe1.style.height = "700px";
+  iframe1.style.width = "46%";
+  iframe1.style.height = "680px";
 
   const iframe2 = document.createElement("iframe");
   iframe2.src = "./VAE_mnist.html";
-  iframe2.style.width = "48%";
-  iframe2.style.height = "700px";
+  iframe2.style.width = "46%";
+  iframe2.style.height = "680px";
 
   document.body.appendChild(iframe1);
   document.body.appendChild(iframe2);
