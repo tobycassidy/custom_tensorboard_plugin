@@ -47,3 +47,12 @@ writing manifest file 'tensorboard_plugin_example.egg-info/SOURCES.txt'
 
 ```
 
+#### Example of existing plugins (without utilising callbacks)
+
+[GRAPHS](https://github.com/tobycassidy/custom_tensorboard_plugin/blob/main/existing_plugins/graphs/demo.py)
+
+<img src='tensorboard_screenshots/graphs_plugin.png' />
+
+[PROJECTOR](https://github.com/tobycassidy/custom_tensorboard_plugin/blob/main/existing_plugins/projector/demo.py)
+
+<img src='tensorboard_screenshots/projector_plugin.mov' />
