@@ -1,5 +1,21 @@
 # custom_tensorboard_plugin
 
+The goal is to write data summaries (as protocol buffers) with a Python backend and retrieve this data
+via some frontend tooling (in this case, JavaScript) and render Plotly figures. Note this only requires 
+an ES module that is an entry point to your frontend i.e. does not impose any framework/tool requirements
+(you can use React, Vue.js, jQuery, DOM API, or whatever your favourite is etc.).
+
+#### Custom PLOTLY Plugin
+
+[Writing some demo summaries](https://github.com/tobycassidy/custom_tensorboard_plugin/blob/main/tensorboard_plugin_example/demo.py)
+[The custom plugin class](https://github.com/tobycassidy/custom_tensorboard_plugin/blob/main/tensorboard_plugin_example/plugin.py)
+[The ES module entry point](https://github.com/tobycassidy/custom_tensorboard_plugin/blob/main/tensorboard_plugin_example/static/index.js)
+
+<img src='tensorboard_screenshots/plotly_plugin.png' />
+
+
+#### Custom Plugin Setup (list of linux commands) 
+
 ```linux
 
 (TB_plugin38) tobycassidy@Tobys-MacBook-Pro custom_tensorboard_plugin % python setup.py develop
@@ -28,3 +44,4 @@ writing manifest file 'tensorboard_plugin_example.egg-info/SOURCES.txt'
 (TB_plugin38) tobycassidy@Tobys-MacBook-Pro custom_tensorboard_plugin % tensorboard --logdir=demo_logs
 
 ```
+
