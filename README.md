@@ -61,6 +61,8 @@ writing manifest file 'tensorboard_plugin_example.egg-info/SOURCES.txt'
 
 [TIME SERIES, SCALARS, GRAPHS, DISTRIBUTIONS, HISTOGRAMS, PROFILE](https://github.com/tobycassidy/custom_tensorboard_plugin/blob/main/existing_plugins/profile/demo.py)
 
+(install the profile plugin, note naming convention for tensorboard plugins should be tensorboard-plugin-foo) 
+
 ```linux
 
 (TB_plugin38) tobycassidy@Tobys-MacBook-Pro custom_tensorboard_plugin % python -m pip install tensorboard-plugin-profile
