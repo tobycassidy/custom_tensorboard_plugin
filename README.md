@@ -8,7 +8,9 @@ an ES module that is an entry point to your frontend i.e. does not impose any fr
 #### Custom PLOTLY Plugin
 
 [Writing some demo summaries](https://github.com/tobycassidy/custom_tensorboard_plugin/blob/main/tensorboard_plugin_example/demo.py)
+
 [The custom plugin class](https://github.com/tobycassidy/custom_tensorboard_plugin/blob/main/tensorboard_plugin_example/plugin.py)
+
 [The ES module entry point](https://github.com/tobycassidy/custom_tensorboard_plugin/blob/main/tensorboard_plugin_example/static/index.js)
 
 <img src='tensorboard_screenshots/plotly_plugin.png' />
